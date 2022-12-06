@@ -9,6 +9,8 @@ import time
 
 from datetime import datetime
 
+# keylogger voor naar een file te schrijven
+# live kunnen zien wat ze zijn aan het typen
 
 def github_connect():
     with open('mytoken.txt') as f:
